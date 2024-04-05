@@ -1,0 +1,54 @@
+
+.greeting-message {
+    font-size: 24px; /* Larger font size for emphasis */
+    font-weight: bold; /* Bold font weight */
+    color: #343a40; /* Dark grey color for high contrast */
+    text-align: center; /* Center align text */
+    margin-bottom: 20px; /* Spacing between text and button */
+    animation: fadeIn 2s ease-out; /* Animation for text appearance */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .create-campaign-button {
+    display: block; /* Make button block to fit content width */
+    width: max-content; /* Adjust width to content size */
+    margin: 0 auto; /* Center button */
+    background-color: #007bff; /* Primary blue color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+  }
+  
+  .create-campaign-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  .create-campaign-container {
+       display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  
+  }
+  .create-campaign-button:active {
+    transform: translateY(1px);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  

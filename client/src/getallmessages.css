@@ -1,0 +1,117 @@
+/* App.css */
+
+/* body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: backgroundMove 15s ease infinite;
+} */
+
+/* @keyframes backgroundMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+} */
+
+
+.custom-form-container {
+
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  margin: auto; /* Centering if not already centered */
+}
+
+.custom-text-field .MuiOutlinedInput-root {
+  background: #f5f7fa;
+  border-radius: 5px;
+}
+
+.custom-text-field .MuiInputLabel-root {
+  color: #6c757d;
+}
+
+.custom-send-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 0;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-weight: 500;
+}
+
+.custom-send-button:hover, .custom-send-button:focus {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.5);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .custom-form-container {
+    margin: 20px;
+    padding: 20px;
+  }
+}
+ .campaignallinfobut{
+    position: relative;
+    bottom: 50px;
+    margin-right: -80%;
+  }
+  
+
+.getallmessage-container {
+  display: flex; /* Assuming you want to use flex. If it's grid, change this to grid. */
+  gap: 20px;
+  flex-direction: column; /* Assuming you want a vertical layout. */
+}
+
+
+.table {
+
+  width: 100%;
+  border-collapse: collapse; /* Optional: for removing space between cells */
+  /* Add any additional styling for your table */
+}
+
+/* Ensure table cells are visually distinct and aligned */
+.table th, .table td {
+  text-align: left;
+  padding: 8px; /* Adjust padding as needed */
+  /* Add any additional styling for table cells */
+}
+
+/* Responsive adjustments */
+
+.form-cont-gm{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.getallmessagesbut{
+  position:absolute;
+right: 1%;
+bottom: 0px;
+
+}
+
+
+
+@media (max-width: 768px) {
+  /* Make the table */ 
+  .table {
+    display: block;
+    width: 100%;
+    overflow-x: auto; /* Add horizontal scroll for smaller screens */
+  }
+}
+
+
